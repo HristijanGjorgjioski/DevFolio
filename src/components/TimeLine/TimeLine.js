@@ -7,8 +7,8 @@ import { TimeLineData } from '../../constants/constants';
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
-  // const [activeItem, setActiveItem] = useState(0);
-  // const carouselRef = useRef();
+  const [activeItem, setActiveItem] = useState(0);
+  const carouselRef = useRef();
 
   // const scroll = (node, left) => {
   //   return node.scrollTo({ left, behavior: 'smooth' });
@@ -43,9 +43,23 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+    <Section id="about">
+      <SectionTitle>About Me</SectionTitle>
+      <SectionText>
+        My goal is to create great expiriences for my clients
+      </SectionText>
+      <CarouselContainer ref={carouselRef}>
+        <>
+          {TimeLineData.map((item, index) => (
+            <CarouselMobileScrollNode key={item} final={index === TOTAL_CAROUSEL_COUNT - 1}>
+              <CarouselItem index={index} id={`carousel__item-${item}`} active={activeItem}>
+
+              </CarouselItem>
+            </CarouselMobileScrollNode>
+          ))}
+        </>
+      </CarouselContainer>
+    </Section>
   );
 };
 
