@@ -1,20 +1,20 @@
 export const projects = [
   {
     title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    description: "Social Media App Using React, Node.js, Express & MongoDB.",
       image: '/images/1.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/HristijanGjorgjioski/memories',
+    visit: 'https://memories-gjorgjioski.netlify.app/',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Expense Tracker',
+    description:"Expense Tracker app with React and Speechly!",
+    image: 'https://i.ibb.co/3BscyCN/expense-tracker.png',
+    tags: ['React', 'JavaScript', 'Speechly'],
+    source: 'https://github.com/HristijanGjorgjioski/expense-tracker',
+    visit: 'https://expense-tracker-gjorgjioski.netlify.app/',
     id: 1,
   },
   {
@@ -38,9 +38,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2019, text: 'Started my journey', },
+  { year: 2020, text: 'Learned fundamentals', },
+  { year: 2021, text: 'Worked as a freelance developer', },
+  { year: 2022, text: 'Started at coding bootcamp', },
 ];
