@@ -46,7 +46,8 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm a 19 years old full-stack web developer from Prilep, Republic of Macedonia. Currently working with MERN stack. I am always ready to learn new, funny and interesting stuff.  
+        Dedicated to learning popular and important technology, tools and acquires new skills that I will need in future jobs. <br />
+        Currently I am student at JavaScript Academy in Semos Education.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
