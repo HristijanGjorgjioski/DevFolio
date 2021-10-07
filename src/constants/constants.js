@@ -39,10 +39,19 @@ export const projects = [
     title: 'Cryptoverse',
     description: "Crypto info and news application.",
     image: 'https://imgur.com/v4SdAod.png',
-    tags: ['React', 'Typescript', 'MonacoEditor'],
+    tags: ['React', 'JavaScript', 'RapidAPI'],
     source: 'https://github.com/HristijanGjorgjioski/crypto-app',
     visit: 'https://cryptoverse-gjorgjioski.netlify.app/',
     id: 4,
+  },
+  {
+    title: 'My own API',
+    description: "Node.js api for user auth and post functionality",
+    image: 'https://imgur.com/lT65YFm.png',
+    tags: ['JavaScript', 'Node.js', 'MongoDB'],
+    source: 'https://github.com/HristijanGjorgjioski/GorgAPI',
+    visit: 'https://github.com/HristijanGjorgjioski/GorgAPI',
+    id: 5,
   },
 ];
 
