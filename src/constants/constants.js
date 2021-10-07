@@ -35,11 +35,19 @@ export const projects = [
     visit: 'https://hbook-gjorgjioski.netlify.app/',
     id: 3,
   },
+  {
+    title: 'Cryptoverse',
+    description: "Crypto info and news application.",
+    image: 'https://imgur.com/v4SdAod.png',
+    tags: ['React', 'Typescript', 'MonacoEditor'],
+    source: 'https://github.com/HristijanGjorgjioski/crypto-app',
+    visit: 'https://cryptoverse-gjorgjioski.netlify.app/',
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: 'Started my journey', },
-  { year: 2020, text: 'Learned fundamentals', },
+  { year: 2020, text: 'Started my journey', },
   { year: 2021, text: 'Worked as a freelance developer', },
   { year: 2022, text: 'Started at coding bootcamp', },
 ];
