@@ -1,1 +1,3 @@
 ## Personal Portfolio
+
+This is my personal website built with Next.js and Styled Components. In this website you can read more about me, see my working experience, my road to how I become web developer, project that I have worked on, etc, etc...
